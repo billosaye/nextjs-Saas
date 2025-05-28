@@ -1,6 +1,7 @@
 import CompanionCard from '@/components/CompanionCard'
 import CompanionList from '@/components/CompanionList'
 import CTA from '@/components/CTA'
+
 import { recentSessions } from '@/constants'
 import React from 'react'
 

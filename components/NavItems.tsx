@@ -17,6 +17,14 @@ const navItems = [
         label: "My-Journey",
         href: "/my-journey",
     },
+    {
+        label: "Subscription",
+        href: "/subscription",
+    },
+    {
+        label: "Sign In",
+        href: "/signin",
+    },
 ]
 
 const NavItems = () => {

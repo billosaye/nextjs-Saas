@@ -5,8 +5,6 @@ import CTA from '@/components/CTA'
 import { recentSessions } from '@/constants'
 import React from 'react'
 
-
-
 const page = () => {
   return (
     <main>
@@ -14,32 +12,31 @@ const page = () => {
      <section className='home-section'>
       <CompanionCard 
       id="1"
-      name="Neura the Brain Explorer"
-      topic="Neural Network of the Brain"
-      subject="Neuroscience"
-      duration={10}
-      color="#fcba03" 
+      name="AlgoMaster"
+      topic="Time Complexity Analysis"
+      subject="algorithms"
+      duration={45}
+      color="#E5D0FF" 
       />
 
-<CompanionCard 
-      id="12"
-      name="Country Explorer"
-      topic="Country Information"
-      subject="Geography"
-      duration={14}
-      color="#14fc03" 
+      <CompanionCard 
+      id="2"
+      name="WebWizard"
+      topic="React Hooks & State Management"
+      subject="web-development"
+      duration={30}
+      color="#BDE7FF" 
       />
 
-<CompanionCard 
-      id="123"
-      name="History Explorer"
-      topic="GDP of the World"
-      subject="Economics"
-      duration={13}
-      color="#036bfc" 
+      <CompanionCard 
+      id="3"
+      name="CyberGuard"
+      topic="Cryptography Basics"
+      subject="cybersecurity"
+      duration={25}
+      color="#FFA07A" 
       />           
      </section>
-
 
      <section className='home-section'>
       <CompanionList 

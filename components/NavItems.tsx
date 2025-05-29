@@ -20,11 +20,7 @@ const navItems = [
     {
         label: "Subscription",
         href: "/subscription",
-    },
-    {
-        label: "Sign In",
-        href: "/signin",
-    },
+    },   
 ]
 
 const NavItems = () => {
